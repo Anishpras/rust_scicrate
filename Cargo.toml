@@ -1,0 +1,22 @@
+[package]
+   name = "rust_scicrate"
+   version = "0.1.0"
+   edition = "2021"
+   authors = ["Anish Prashun <anishprashun118@gmail.com>"]
+   description = "A scientific computing library for Rust"
+   license = "MIT"
+   repository = "https://github.com/anishpras/rust_scicrate"
+   documentation = "https://docs.rs/rust_scicrate"
+   readme = "README.md"
+   keywords = ["scientific", "computing", "mathematics", "numerical"]
+   categories = ["science", "mathematics"]
+
+   [dependencies]
+   ndarray = "0.15.6"
+   num = "0.4"
+   nalgebra = "0.32.2"
+   rand = "0.8.5"
+   thiserror = "1.0"
+
+   [dev-dependencies]
+   approx = "0.5.1"
